@@ -1,0 +1,35 @@
+{pkgs, ...}: {
+
+  home.packages = with pkgs; [
+    unzip
+    zip
+    file
+    nload
+    wget
+    eza
+    ripgrep
+    sd
+    fd
+    jq
+    bat
+    duf
+    dua
+    htop
+    psmisc
+    usbutils
+    git
+    neovim
+    pgcli
+
+    age
+    ssh-to-age
+    sops
+
+    dive
+    nix-tree
+    fastfetch
+    rdap
+
+    python3
+  ];
+}
