@@ -10,4 +10,9 @@
   home.stateVersion = "24.11";
   programs.home-manager.enable = true;
   xdg.enable = true;
+
+  programs.git = {
+    enable = true;
+    lfs.enable = true;
+  };
 }
