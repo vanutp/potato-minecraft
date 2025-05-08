@@ -15,4 +15,7 @@
     enable = true;
     lfs.enable = true;
   };
+  programs.zsh.initExtra = ''
+    export DOCKER_HOST=unix://$XDG_RUNTIME_DIR/docker.sock
+  '';
 }

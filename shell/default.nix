@@ -56,8 +56,6 @@
       extended = true;
     };
 
-    initExtraFirst = ''
-    '';
     initExtra = ''
       zstyle ':completion:*' rehash true
       function sudoedit() {
