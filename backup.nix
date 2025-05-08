@@ -18,7 +18,7 @@
           text = ''
             mkdir -p ~/backup
             rdiff-backup backup \
-              ~/hse-modded ~/backup
+              ~/modded-hserver ~/backup
             rdiff-backup --force remove increments \
               --older-than 7D ~/backup || true
           '';
